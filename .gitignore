@@ -1,0 +1,8 @@
+.deps/
+.camera-deps/
+models/*.task
+__pycache__/
+*.pyc
+config.local.json
+runs.csv
+tmp/
