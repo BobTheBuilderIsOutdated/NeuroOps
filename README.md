@@ -4,6 +4,12 @@
 
 NeuroOps is a Windows prototype that translates webcam-based head orientation, facial expressions, and optional calibrated gaze into mouse and keyboard input. The repository also includes an experimental EMOTIV Cortex mental-command client. The working camera controller does not use the headset or EEG data.
 
+## Team-reported experiment
+
+The team reports combining exported EMOTIV INSIGHT 2 data with an OpenCV-based gesture controller to control MW2.
+
+This describes the team's reported testing beyond the implementation included here. The export and pairing code are not included in this repository, so this workflow cannot currently be reproduced from this checkout. The available code paths are documented separately below.
+
 ## Quick start
 
 Requirements: Windows, Python 3.12 with Tkinter, a webcam, and the original MW2 campaign for game output. Python 3.12 is the version tested during development.
